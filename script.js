@@ -118,7 +118,7 @@ function move() {
     if (snakeBody[0].classList.contains('snakeBody')){
         alert('Game Over');
         clearInterval(interval);
-        snakeBody[0].style.background = 'url(/anger.jpg) center no-repeat';
+        snakeBody[0].style.background = 'url(/content/anger.jpg) center no-repeat';
         snakeBody[0].style.backgroundSize = "cover";
     }
 
